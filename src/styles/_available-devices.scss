@@ -10,6 +10,7 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 24px;
+        list-style: none;
         
         &__item{
             text-align: center;
