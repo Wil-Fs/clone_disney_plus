@@ -47,7 +47,7 @@ body {
 .text--big {
     @include text(18px);
 
-    @media (max-width: 768px ) {
+    @media (max-width: 768px) {
         @include text(15px);
     }
 }
@@ -55,7 +55,7 @@ body {
 .text {
     @include text;
 
-    @media (max-width: 768px ) {
+    @media (max-width: 768px) {
         @include title(14px);
     }
 }
@@ -63,7 +63,7 @@ body {
 .text--small {
     @include text(12px);
 
-    @media (max-width: 768px ) {
+    @media (max-width: 768px) {
         @include title(11px);
     }
 }
