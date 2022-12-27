@@ -4,7 +4,7 @@ const imagemin = require('gulp-imagemin');
 const uglify = require('gulp-uglify');
 
 function buildStyles() {
-    return gulp.src('./src/styles/main.scss')
+    return gulp.src('./src/styles/*.scss')
         .pipe(sass({outputStyle: 'compressed'}))
         .pipe(gulp.dest('./dist/css'));
 }
